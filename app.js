@@ -1,4 +1,5 @@
 //jshint esversion: 8
+require('dotenv').config();
 
 const express = require('express');
 const got = require('got');
@@ -21,7 +22,7 @@ app.get('/', function(req, res) {
 
 app.get('/api', function(req, res) {
 
-  const API_KEY = 'zYe8YxUMNntmJBK2LDGY2dBHu4D-5JK6srKiNIPVOAIvpb9psK8';
+  const API_KEY = process.env.API_KEY;
   const query = '&page=1&per_page=3';
 
   const url = 'https://api.pandascore.co/csgo/matches/upcoming?token=' + API_KEY + query;
