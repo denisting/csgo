@@ -42,17 +42,3 @@ app.get('/api', function(req, res) {
     }
   })();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-//serve last. different route "/api"
-//mozilla tutorials
