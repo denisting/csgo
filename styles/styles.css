@@ -1,0 +1,43 @@
+.centered {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #cccccc;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+}
+
+.card {
+  border-color: #bfbfbf;
+}
+
+.card-col {
+  display: inline;
+}
+
+.match-info {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.test-grid {
+  background-color: orange;
+  text-align: center;
+}
+
+.col-sm {
+  border-style: solid;
+  border: 1px;
+}
+
+.match-attr {
+  justify-content: center;
+}
+
+.test {
+
+}
